@@ -1,6 +1,13 @@
+final int WINDOW_W = 900;
+final int WINDOW_H = 600;
+
+void settings(){
+    size(WINDOW_W, WINDOW_H);
+}
+
 void setup(){
-  size(400, 400);
+    
 }
 void draw(){
-  background(255);
+    background(255);
 }
